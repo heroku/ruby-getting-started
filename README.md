@@ -12,8 +12,8 @@ Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://
 $ git clone git@github.com:heroku/ruby-getting-started.git
 $ cd ruby-getting-started
 $ bundle install
-$ rake db:create db:migrate
-$ foreman start web
+$ bundle exec rake db:create db:migrate
+$ heroku local
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
@@ -32,4 +32,3 @@ $ heroku open
 For more information about using Ruby on Heroku, see these Dev Center articles:
 
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
-
