@@ -27,6 +27,10 @@ $ heroku run rake db:migrate
 $ heroku open
 ```
 
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Docker
 
 The app can be run and tested using the [Heroku Docker CLI plugin](https://devcenter.heroku.com/articles/introduction-local-development-with-docker).
