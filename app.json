@@ -1,5 +1,5 @@
 {
-  "name": "Heroku Rails sample app",
+  "name": "Start on Heroku: Ruby",
   "description": "A barebones Rails app, which can easily be deployed to Heroku",
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
