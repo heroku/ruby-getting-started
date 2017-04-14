@@ -4,5 +4,8 @@
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
-  "addons": [ "heroku-postgresql" ]
+  "addons": [ "heroku-postgresql" ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
 }
