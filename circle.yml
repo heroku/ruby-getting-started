@@ -2,5 +2,5 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: foo-bar-123
+      appname: infinite-citadel-14747
 
