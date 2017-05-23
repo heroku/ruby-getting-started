@@ -1,0 +1,15 @@
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: dempj-app-staging
+  production:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    branch: master
+    heroku:
+      appname: dempj-app-production
+  production:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    branch: /hotfix\/.*/
+    heroku:
+      appname: dempj-app-production
