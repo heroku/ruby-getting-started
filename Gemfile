@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.2.5'
+ruby '2.3.3'
+#ruby-gemset=ruby-getting-started
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -37,4 +38,6 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'pry-rails'
+gem 'fabrication'
+gem 'ffaker'
