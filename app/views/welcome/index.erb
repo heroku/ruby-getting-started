@@ -3,11 +3,29 @@
     <a href="/" class="lang-logo">
       <img src="<%= asset_path('lang-logo.png') %>">
     </a>
-    <h1>Getting Started with Ruby on Heroku</h1>
-    <p>This is a sample Ruby application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-ruby"><span class="glyphicon glyphicon-flash"></span> Getting Started with Ruby</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/ruby-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    <h1>Load the DB</h1>
+    <ul>
+      <li>
+        <%= link_to "make 1000 new objects in DB", make_objects_path %>
+      </li>
+      <li>
+        <%= link_to "load ALL objects in the DB", expensive_path %>
+        <%= Foo.count + Bar.count %> total
+
+      </li>
+    </ul>
   </div>
+  <ul>
+  <% @foos.each do |foo| %>
+    <li><%= foo.inspect %></li>
+  <% end %>
+  </ul>
+
+  <ul>
+  <% @bars.each do |bar| %>
+    <li><%= bar.inspect %></li>
+  <% end %>
+  </ul>
 </div>
 <div class="container">
   <div class="alert alert-info text-center" role="alert">
