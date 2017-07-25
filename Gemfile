@@ -40,6 +40,6 @@ gem 'puma'
 # gem 'debugger', group: [:development, :test]
 
 gem 'trashed'
-gem 'statsd'
+gem 'statsd-ruby'
 
 gem 'faker'

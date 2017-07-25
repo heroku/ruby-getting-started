@@ -7,7 +7,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 require 'trashed/railtie'
-require 'statsd'
+require 'statsd-ruby'
 
 
 module RubyGettingStarted
