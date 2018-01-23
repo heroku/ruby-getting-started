@@ -4,5 +4,10 @@
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
-  "addons": [ "heroku-postgresql" ]
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": { "version": "9.6" }
+    }
+  ]
 }
