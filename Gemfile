@@ -37,3 +37,4 @@ gem 'puma'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'newrelic_rpm'
