@@ -38,3 +38,5 @@ gem 'puma'
 # gem 'debugger', group: [:development, :test]
 
 gem 'scout_apm'
+
+gem `bundle install`
