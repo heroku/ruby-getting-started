@@ -13,6 +13,8 @@ gem 'uglifier'
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+gem 'bootsnap', require: false
+gem 'listen'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
