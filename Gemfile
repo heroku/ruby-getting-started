@@ -37,9 +37,4 @@ gem 'puma'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'newrelic_rpm'
-
- configure :production do
- require 'newrelic_rpm'
- end
 
