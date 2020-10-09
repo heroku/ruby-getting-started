@@ -15,7 +15,6 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
@@ -23,6 +22,7 @@ default: &default
 
 development:
   <<: *default
+  adapter: sqlite3
   database: ruby-getting-started_development
 
   # The specified database role being used to connect to postgres.
@@ -57,6 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  adapter: sqlite3
   database: ruby-getting-started_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
@@ -80,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: ruby-getting-started_production
   username: ruby-getting-started
   password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
