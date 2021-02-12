@@ -1,0 +1,2 @@
+env:
+  RAILS_ENV: production
