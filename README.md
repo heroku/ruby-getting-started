@@ -9,11 +9,11 @@ This application supports the [Getting Started on Heroku with Ruby](https://devc
 Make sure you have Ruby installed.  Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) (formerly known as the Heroku Toolbelt).
 
 ```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ bundle exec rake db:create db:migrate
-$ heroku local
+git clone git@github.com:heroku/ruby-getting-started.git
+cd ruby-getting-started
+bundle install
+bundle exec rake db:create db:migrate
+heroku local
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
@@ -21,10 +21,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```sh
-$ heroku create
-$ git push heroku main
-$ heroku run rake db:migrate
-$ heroku open
+heroku create
+git push heroku main
+heroku run rake db:migrate
+heroku open
 ```
 
 or
