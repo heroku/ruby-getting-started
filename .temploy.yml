@@ -1,6 +1,6 @@
 ssl: true
 basic_authentication:
-  username: foo
-  password: bar
+  username: ${{ secrets.USERNAME }}
+  password: ${{ secrets.PASSWORD }}
 env:
   RAILS_ENV: production
