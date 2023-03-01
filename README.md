@@ -26,6 +26,16 @@ By default, apps use Eco dynos if you are subscribed to Eco. Otherwise, it defau
 
 Eligible students can apply for platform credits through our new [Heroku for GitHub Students program](https://blog.heroku.com/github-student-developer-program).
 
+Ensure you're in the correct directory:
+
+```sh
+$ ls
+Gemfile		Procfile	Rakefile	app.json	config		db		log		public		tmp
+Gemfile.lock	README.md	app		bin		config.ru	lib		package.json	test		vendor
+```
+
+You should see a `Gemfile` file. Then run:
+
 ```sh
 $ heroku create
 $ git push heroku main
@@ -36,35 +46,6 @@ $ heroku open
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Docker
-
-The app can be run and tested using the [Heroku Docker CLI plugin](https://devcenter.heroku.com/articles/local-development-with-docker-compose).
-
-Make sure the plugin is installed:
-
-    heroku plugins:install heroku-docker
-
-Configure Docker and Docker Compose:
-
-    heroku docker:init
-
-And run the app locally:
-
-    docker-compose up web
-
-The app will now be available on the Docker daemon IP on port 8080.
-
-To work with the local database and do migrations, you can open a shell:
-
-    docker-compose run shell
-    bundle exec rake db:migrate
-
-You can also use Docker to release to Heroku:
-
-    heroku create
-    heroku docker:release
-    heroku open
 
 ## Documentation
 
