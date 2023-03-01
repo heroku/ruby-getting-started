@@ -26,6 +26,16 @@ By default, apps use Eco dynos if you are subscribed to Eco. Otherwise, it defau
 
 Eligible students can apply for platform credits through our new [Heroku for GitHub Students program](https://blog.heroku.com/github-student-developer-program).
 
+Ensure you're in the correct directory:
+
+```sh
+$ ls
+Gemfile		Procfile	Rakefile	app.json	config		db		log		public		tmp
+Gemfile.lock	README.md	app		bin		config.ru	lib		package.json	test		vendor
+```
+
+You should see a `Gemfile` file. Then run:
+
 ```sh
 $ heroku create
 $ git push heroku main
