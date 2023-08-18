@@ -119,7 +119,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    nio4r (2.5.8)
+    nio4r (2.5.9)
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -128,7 +128,7 @@ GEM
     pg (1.3.5)
     psych (5.1.0)
       stringio
-    puma (6.1.1)
+    puma (6.3.1)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.4)
