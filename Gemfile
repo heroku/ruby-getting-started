@@ -4,7 +4,7 @@ ruby '>= 3.1', '< 3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1.3'
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 1.5.4'
+gem 'pg', '~> 1.5.6'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
