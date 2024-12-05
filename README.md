@@ -6,7 +6,7 @@ This application supports the [Getting Started on Heroku with Ruby](https://devc
 
 ## Running Locally
 
-Make sure you have Ruby installed. Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) (formerly known as the Heroku Toolbelt).
+Make sure you have [Ruby](https://guides.railsgirls.com/install) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 
 ```sh
 $ git clone git@github.com:heroku/ruby-getting-started.git
