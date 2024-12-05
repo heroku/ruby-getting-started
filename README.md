@@ -8,7 +8,7 @@ This application supports the [Getting Started on Heroku with Ruby](https://devc
 
 Make sure you have [Ruby](https://guides.railsgirls.com/install) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 
-```sh
+```text
 $ git clone https://github.com/heroku/ruby-getting-started
 $ cd ruby-getting-started
 $ bundle install
@@ -24,7 +24,7 @@ Using resources for this example app counts towards your usage. [Delete your app
 
 Ensure you're in the correct directory:
 
-```sh
+```console
 $ ls
 Gemfile		Procfile	Rakefile	app.json	config		db		log		public		tmp
 Gemfile.lock	README.md	app		bin		config.ru	lib		package.json	test		vendor
@@ -36,7 +36,7 @@ By default, apps use Eco dynos if you are subscribed to Eco. Otherwise, it defau
 
 Eligible students can apply for platform credits through our new [Heroku for GitHub Students program](https://blog.heroku.com/github-student-developer-program).
 
-```sh
+```text
 $ heroku create
 $ git push heroku main
 $ heroku open
@@ -48,7 +48,7 @@ By default, apps on [Fir](https://devcenter.heroku.com/articles/generations#fir)
 [create a private space](https://devcenter.heroku.com/articles/working-with-private-spaces#create-a-private-space)
 first.
 
-```
+```text
 $ heroku create --space <space-name>
 $ git push heroku main
 $ heroku ps:wait
