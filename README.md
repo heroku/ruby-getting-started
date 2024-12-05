@@ -35,7 +35,6 @@ You should see a `Gemfile` file. Then run:
 ```sh
 $ heroku create
 $ git push heroku main
-$ heroku run rake db:migrate
 $ heroku open
 ```
 
