@@ -46,4 +46,6 @@ or
 
 For more information about using Ruby on Heroku, see these Dev Center articles:
 
-- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+- [Getting Started on Heroku with Ruby](https://devcenter.heroku.com/articles/getting-started-with-ruby)
+- [Getting Started on Heroku Fir with Ruby](https://devcenter.heroku.com/articles/getting-started-with-ruby-fir)
+- [Ruby articles on the Heroku Dev Center](https://devcenter.heroku.com/categories/ruby)
