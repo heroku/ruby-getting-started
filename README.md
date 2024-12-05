@@ -1,6 +1,6 @@
 # Ruby Getting Started
 
-A barebones Rails app, which can easily be deployed to Heroku.
+A barebones [Ruby on Rails](https://rubyonrails.org/) app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started on Heroku with Ruby](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
 
