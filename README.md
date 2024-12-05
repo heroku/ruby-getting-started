@@ -9,7 +9,7 @@ This application supports the [Getting Started on Heroku with Ruby](https://devc
 Make sure you have [Ruby](https://guides.railsgirls.com/install) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 
 ```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
+$ git clone https://github.com/heroku/ruby-getting-started
 $ cd ruby-getting-started
 $ bundle install
 $ bundle exec rake db:create db:migrate
