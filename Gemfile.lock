@@ -142,14 +142,15 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
-    pg (1.5.9)
+    pg (1.6.0)
+    pg (1.6.0-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
     psych (5.2.6)
       date
       stringio
-    puma (6.6.0)
+    puma (6.6.1)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.16)
@@ -247,7 +248,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   listen
-  pg (~> 1.5.9)
+  pg (~> 1.6.0)
   puma
   rails (~> 7.2.2)
   sass-rails
