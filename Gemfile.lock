@@ -140,9 +140,12 @@ GEM
     nokogiri (1.18.9)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.18.9-aarch64-linux-gnu)
+      racc (~> 1.4)
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     pg (1.6.0)
+    pg (1.6.0-aarch64-linux)
     pg (1.6.0-x86_64-linux)
     pp (0.6.2)
       prettyprint
@@ -239,6 +242,7 @@ GEM
     zeitwerk (2.7.3)
 
 PLATFORMS
+  aarch64-linux
   ruby
   x86_64-linux
 
