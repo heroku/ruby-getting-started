@@ -10,7 +10,9 @@ preload_app!
 
 # Support IPv6 by binding to host `::` instead of `0.0.0.0`.
 port(ENV.fetch("PORT") { 3000 }, "::")
-environment(ENV.fetch("RAILS_ENV") { "development" })
+# Ruby buildpack sets RAILS_ENV in production.
+rails_env = ENV.fetch("RAILS_ENV") { "development" }
+environment(rails_env)
 
 # Allow puma to be restarted by `rails restart` command locally.
 plugin(:tmp_restart)
