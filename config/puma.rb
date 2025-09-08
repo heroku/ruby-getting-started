@@ -8,11 +8,15 @@ threads(threads_count, threads_count)
 # Reduce memory usage on copy on write (CoW) systems.
 preload_app!
 
-# Support IPv6 by binding to host `::` instead of `0.0.0.0`.
-port(ENV.fetch("PORT") { 3000 }, "::")
 # Ruby buildpack sets RAILS_ENV in production.
 rails_env = ENV.fetch("RAILS_ENV") { "development" }
 environment(rails_env)
+
+# Support IPv6 by binding to host `::` in production instead of `0.0.0.0` and `::1` instead of `127.0.0.1` in development.
+host = rails_env == "production" ? "::" : "::1"
+
+# PORT environment variable is set by Heroku in production.
+port(ENV.fetch("PORT") { 3000 }, host)
 
 # Allow puma to be restarted by `rails restart` command locally.
 plugin(:tmp_restart)
