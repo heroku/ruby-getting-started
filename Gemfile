@@ -2,13 +2,11 @@ source 'https://rubygems.org'
 ruby '>= 3.1', '< 3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.2.2'
+gem 'rails', '~> 8.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.6.1'
 # Use SCSS for stylesheets
 gem 'sass-rails'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -19,6 +17,7 @@ gem 'listen'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+# Note: Turbolinks is deprecated in Rails 8, but keeping for compatibility
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
