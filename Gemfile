@@ -38,3 +38,5 @@ gem 'puma'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# https://devcenter.heroku.com/articles/h12-request-timeout-in-ruby-mri
+gem "rack-timeout", "~> 0.7.0"
