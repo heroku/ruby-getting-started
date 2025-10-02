@@ -28,9 +28,24 @@ Using resources for this example app counts towards your usage. [Delete your app
 Ensure you're in the correct directory:
 
 ```console
-$ ls
-Gemfile		Procfile	Rakefile	app.json	config		db		log		public		tmp
-Gemfile.lock	README.md	app		bin		config.ru	lib		package.json	test		vendor
+$ ls -1
+app
+app.json
+bin
+config
+config.ru
+db
+Gemfile
+Gemfile.lock
+lib
+log
+Procfile
+public
+Rakefile
+README.md
+test
+tmp
+vendor
 ```
 
 ### Deploy on Heroku [Cedar](https://devcenter.heroku.com/articles/generations#cedar)
