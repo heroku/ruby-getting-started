@@ -148,10 +148,10 @@ ActiveRecord::Schema[8.0].define(version: 2014_07_07_111715) do
   end
 
   create_table "widgets", force: :cascade do |t|
-    t.string "name"
+    t.datetime "created_at", precision: nil, null: false
     t.text "description"
+    t.string "name"
     t.integer "stock"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 end
