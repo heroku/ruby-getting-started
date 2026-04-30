@@ -85,7 +85,7 @@ GEM
     crass (1.0.6)
     date (3.5.1)
     drb (2.2.3)
-    erb (6.0.2)
+    erb (6.0.4)
     erubi (1.13.1)
     ffi (1.17.3)
     ffi (1.17.3-aarch64-linux-gnu)
