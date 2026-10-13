@@ -8,7 +8,7 @@ id = "heroku/ruby"
 id = "heroku/procfile"
 
 [[io.buildpacks.group]]
-uri = "ghcr.io/heroku-examples/xp:122.6ecb1b7"
+uri = "ghcr.io/heroku-examples/xp"
 
 # Routing rules. The `routes` array coexists here with the CNB buildpack tables
 # above: one project.toml both installs dyno-proxy and configures its routes.
