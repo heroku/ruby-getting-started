@@ -1,0 +1,18 @@
+[_]
+schema-version = "0.2"
+
+[[io.buildpacks.group]]
+id = "heroku/ruby"
+
+[[io.buildpacks.group]]
+id = "heroku/procfile"
+
+[[io.buildpacks.group]]
+uri = "docker://ghcr.io/heroku-examples/xp"
+
+# Routing rules. The `routes` array coexists here with the CNB buildpack tables
+# above: one project.toml both installs dyno-proxy and configures its routes.
+# app.json uses the same `routes` schema at its top level.
+[[routes]]
+path = "/anything"
+to = "https://httpbin.org"
