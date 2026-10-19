@@ -246,7 +246,7 @@ DEPENDENCIES
   spring
 
 RUBY VERSION
-  ruby 3.4.9
+  ruby 3.4.11p137
 
 BUNDLED WITH
-  4.0.5
+  4.0.23
